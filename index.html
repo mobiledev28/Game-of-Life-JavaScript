@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Conway's Game of Life</title>
+	<meta name="description" content="Javascript version of Conway's Game of Life">
+	<style>
+		#my-canvas {
+			display: block;
+			margin: 0 auto;
+			border: 3px solid Blue;
+		}
+		#navigation {
+			margin-top: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="my-canvas" width="500" height="400"></canvas>
+	<div id="navigation">
+		<button id="pause-button">Detener</button>
+		<button id="clear-button">Limpiar</button>
+		<button id="randomize-button">Ejecutar</button>
+	</div>
+	<!-- Game code in external file -->
+    <script src="js/gameoflife.js"></script>
+</body>
+</html>
